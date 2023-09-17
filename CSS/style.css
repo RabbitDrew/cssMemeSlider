@@ -1,0 +1,93 @@
+/*----------body----------*/
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'forum';
+    font-size: 20px;
+    color: #000;
+    background-color:gray ;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+*{
+    scroll-behavior: smooth;
+}
+
+*,
+*:before
+*:after {
+    box-sizing: border-box;
+}
+ a,h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+ }
+ p {
+    margin: 0;
+ }
+ul,li {
+    padding: 0;
+    margin: 0;
+}
+
+/*/----------body----------*/
+
+
+/*----------main----------*/
+
+.container {
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.slider_wrapper {
+    max-width: 98%;
+    max-height: 100%;
+}
+
+/*meme*/
+                        .slider {
+                            width: 1940px;
+                            height: 960px;
+                            background-color: #fff;
+                        }
+
+                        .one, .three {
+                            background-color: blue;
+                        }
+/*meme*/
+
+/*navigation*/
+.caption_and_btn {
+    max-width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.nav {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn {
+  width: 1rem;
+  height: 1rem;
+  list-style-type: none;
+  background-color: aqua;
+  border: 1px aqua solid;
+  border-radius: 100%;
+  margin-left: 0.5rem;
+}
+/*navigation*/
