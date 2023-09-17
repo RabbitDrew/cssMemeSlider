@@ -120,15 +120,15 @@ input[type="radio"] {
 
 }
 
-input[type="radio"]:checked + .btn {
-    background-color: blue;
-  }
 
 .btn:hover {
     border: 0.0625rem #fff solid ;
     background-color: #fff;
 }
 
+input[type="radio"]:checked + .btn {
+    background-color: gray !important;
+}
 
 
  #s1:checked ~ #slides #overflow{
@@ -160,14 +160,18 @@ input[type="radio"]:checked + .btn {
     .controls {
         display: flex;
         justify-content: center;
-        margin-top: -3% ;
+        margin-top: -7% ;
         margin-right: 5%;
     }
     p {
         color: #fff;
-        margin-top: 0.5rem;
+        margin-top: 2rem;
         font-size: 1rem;
       }
+      .btn {
+        width:0.7rem;
+        height: 0.7rem;
+    }
 }
 
 
@@ -175,42 +179,77 @@ input[type="radio"]:checked + .btn {
     .controls {
         display: flex;
         justify-content: center;
-        margin-top: -2% ;
+        margin-top: -7% ;
         margin-right: 5%;
     }
     p {
         color: #fff;
-        margin-top: 0.5rem;
+        margin-top: 2rem;
         font-size: 1rem;
-      }
-}
-
-@media screen and (max-width: 540px) {
-    .controls {
-        margin-top: 0% ;
-        margin-right: 5%;
-    }
-    p {
-        color: #fff;
-        margin-top: 0.5rem;
-        font-size: 1rem;
-      }
-}
-
-
-@media screen and (max-width: 370px) {
-    .controls {
-        margin-top: 2% ;
-        margin-right: 5%;
-    }
-    p {
-        color: #fff;
-        margin-top: 0.5rem;
-        font-size: 0.8rem;
       }
       .btn {
         width:0.7rem;
         height: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #slider {
+        height: 60vw;
+    }
+    .controls {
+        margin-top: -9% ;
+        margin-right: 5%;
+    }
+    p {
+        color: #fff;
+        margin-top: 2rem;
+        font-size: 1rem;
+      }
+      .btn {
+        width:0.7rem;
+        height: 0.7rem;
+    }
+}
+
+
+@media screen and (max-width: 430px) {
+    #slider {
+        height: 68vw;
+    }
+    .controls {
+        margin-top: -9% ;
+        margin-right: 5%;
+    }
+    p {
+        color: #fff;
+        margin-top: 2rem;
+        font-size: 1rem;
+      }
+      .btn {
+        width:0.7rem;
+        height: 0.7rem;
+    }
+}
+
+
+
+@media screen and (max-width: 370px) {
+    #slider {
+        height: 80vw;
+    }
+    .controls {
+        margin-top: -9% ;
+        margin-right: 5%;
+    }
+    p {
+        color: #fff;
+        margin-top: 2rem;
+        font-size: 0.8rem;
+      }
+      .btn {
+        width:0.5rem;
+        height: 0.5rem;
     }
 
 }
