@@ -8,44 +8,52 @@
 </head>
 <body>
     <main class="container">
-        <div class="slider_wrapper">
-            <div class="slider">
-            
-            </div>
-            <div class="slider one">
-            
-            </div>
-            <div class="slider two">
-            
-            </div>
-            <div class="slider three">
-            
-            </div>
-            <div class="slider four">
-            
-            </div>
+        <div id="slider">
+            <input type="radio" name="slider" id="s1" checked>
+            <input type="radio" name="slider" id="s2">
+            <input type="radio" name="slider" id="s3">
+            <input type="radio" name="slider" id="s4">
+    
+            <div id="slides">
+                <div id="overflow">
+                    <div id="images">
+                            <div class="img_inner one">
+                                <img src="./img/1.jpg" alt="">
+                                <p>Текст для первого слайда</p>
+                                <label for="s1"></label>
+                            </div>
+    
 
-            <div class="caption_and_btn">
-                <div class="caption">
-                    <h4 class="text">text</h4>
+                            <div class="img_inner ">
+                                <img src="./img/2.jpg" alt="">
+                                <p>Текст для второго слайда</p>
+                                <label for="s2"></label>
+                            </div>
+
+
+                            <div class="img_inner ">
+                                <img src="./img/3.jpg" alt="">
+                                <p>Текст для третьего слайда</p>
+                                <label for="s3"></label>
+                            </div>
+
+    
+                            <div class="img_inner">
+                                <img src="./img/4.jpg" alt="">
+                                <p>Текст для четвертого слайда</p>
+                                <label for="s4"></label>
+                            </div>
+                    </div>
                 </div>
-                <nav class="nav">
-                    <li class="btn">
-
-                    </li>
-                    <li class="btn">
-                        
-                    </li>
-                    <li class="btn">
-                        
-                    </li>
-                    <li class="btn">
-                        
-                    </li>
-                </nav>
+                <div class="controls">
+                    <label for="s1" class="btn"></label>
+                    <label for="s2" class="btn"></label>
+                    <label for="s3" class="btn"></label>
+                    <label for="s4" class="btn"></label>
+               </div>
             </div>
         </div>
-        
-    </main>
+         
+</main> 
 </body>
 </html>
