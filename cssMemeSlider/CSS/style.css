@@ -27,8 +27,6 @@ ul,li {
 }
 
 /*/----------body----------*/
-
-
 /*----------main----------*/
 
 .container {
@@ -49,7 +47,7 @@ ul,li {
     width: 100%;
     height: 45vw;
     overflow: hidden;
-    margin-top: 0.9rem;
+    padding: 1rem 0 0 0;
 }
 
 #slides {
