@@ -105,6 +105,16 @@ input[type="radio"] {
     margin-right: 5%;
 }
 
+.btn__wrapper {
+    width: 1.45rem;
+    height: 1.45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
 .btn {
     width:1rem;
     height: 1rem;
@@ -132,13 +142,13 @@ input[type="radio"] {
     transition: background-color .5s ease;
 }
 
-.ch_btn_bg:hover {
-    background-color: #fff;
+.btn__wrapper:hover .btn {
+    border: 0.0625rem #fff solid; 
+    background-color: #fff; 
 }
 
-.btn:hover {
-    border: 0.0625rem #fff solid ;
-    background-color: #fff;
+.btn__wrapper:hover .ch_btn_bg {
+    background-color: #fff; 
 }
 
 
