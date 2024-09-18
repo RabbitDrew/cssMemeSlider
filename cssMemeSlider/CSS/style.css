@@ -106,8 +106,8 @@ input[type="radio"] {
 }
 
 .btn__wrapper {
-    width: 1.45rem;
-    height: 1.45rem;
+    width: 2rem;
+    height: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
